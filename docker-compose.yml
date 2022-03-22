@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  docker-ping:
+    image: "asterisk-ari:v12"
+    stop_signal: SIGINT
+    stop_grace_period: 25s
+    ports:
+      - "9991:9991"

@@ -1,0 +1,5 @@
+{
+    "dataset_list" : ["posts","comments","albums","photos","todos","users"],
+    "mongo_conn_str" : "mongodb://root:rootpassword@localhost:27017",
+    "database" : "mock"
+}
